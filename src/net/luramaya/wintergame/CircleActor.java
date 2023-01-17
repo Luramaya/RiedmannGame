@@ -1,5 +1,6 @@
 package net.luramaya.wintergame;
 
+import org.newdawn.slick.Color;
 import org.newdawn.slick.GameContainer;
 import org.newdawn.slick.Graphics;
 

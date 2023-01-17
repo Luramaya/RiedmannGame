@@ -1,9 +1,11 @@
 package net.luramaya.wintergame;
 
+import org.newdawn.slick.Color;
 import org.newdawn.slick.GameContainer;
 
 public abstract class AbstractActor implements Actor{
     protected MoveStrat moveStrat;
+
 
     public AbstractActor(MoveStrat moveStrat) {
         this.moveStrat = moveStrat;
